@@ -9,8 +9,10 @@ export const Intro = () => {
           <span>
             <em>Desarrollador Fullstack</em>
           </span>
-          <div className="primary-button">
-            <a href="#about">Ver más</a>
+          <div className="mt-3">
+            <a href="#about" className="btn btn-orange btn-lg">
+              Ver más
+            </a>
           </div>
         </div>
       </div>
