@@ -7,7 +7,7 @@ export const About = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="left-text">
-              <h4>Acerca mí</h4>
+              <h4>Acerca de mí</h4>
               <div className="line-dec"></div>
               <p>
                 Soy desarrollador fullstack con mas de cinco años de
