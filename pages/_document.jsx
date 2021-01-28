@@ -10,7 +10,6 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
           <link rel="stylesheet" href="css/bootstrap.min.css" />
-          <link rel="stylesheet" href="css/templatemo-main.css" />
 
           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
           <script src="js/bootstrap.min.js"></script>
