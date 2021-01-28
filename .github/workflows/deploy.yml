@@ -19,6 +19,7 @@ jobs:
           JWT_KEY: ${{ secrets.JWT_KEY }}
           USER: ${{ secrets.GIT_USER }}
         run: |
+          docker build -t portafolio .
           docker login docker.pkg.github.com -u ${{ secrets.GIT_USER }} -p ${{ secrets.GITHUB_TOKEN }}
           docker push docker.pkg.github.com/${{ secrets.GIT_USER }}/portafolio/portafolio:latest
   deploy:
