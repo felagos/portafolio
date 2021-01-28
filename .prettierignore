@@ -9,3 +9,4 @@ Dockerfile
 out
 .gitignore
 public
+.github
