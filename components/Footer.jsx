@@ -8,9 +8,9 @@ export const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="primary-button">
-              <a href="#home">Volver arriba</a>
-            </div>
+            <a href="#home" className="btn btn-orange mb-5">
+              Vovler arriba
+            </a>
             <ul>
               <li>
                 <a href="https://github.com/felagos/" target="_blank">
