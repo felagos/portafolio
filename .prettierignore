@@ -8,3 +8,4 @@ Dockerfile
 .prettierrc.json
 out
 .gitignore
+public
