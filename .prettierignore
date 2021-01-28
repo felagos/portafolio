@@ -6,3 +6,5 @@ package*
 Dockerfile
 .prettierignore
 .prettierrc.json
+out
+.gitignore
