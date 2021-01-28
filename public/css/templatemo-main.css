@@ -1,5 +1,6 @@
 :root {
   --orange: #ff7d27;
+  --orange-dark: #ff8c00;
   --white: #fff;
   --yellow: #ff0;
   --aqua: #3cc;
@@ -715,4 +716,26 @@ body.lb-disable-scrolling {
   font-size: 18px;
   line-height: 40px;
   font-weight: 500;
+}
+
+.grid-portafolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.btn-orange {
+  background-color: var(--orange);
+  border-color: var(--orange);
+  color: var(--white);
+}
+
+.btn-orange:hover {
+  background-color: var(--orange-dark);
+  border-color: var(--orange-dark);
+  color: var(--white);
+}
+
+.btn-large {
+  width: 100%;
 }
