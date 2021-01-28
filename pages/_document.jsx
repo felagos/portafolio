@@ -13,7 +13,6 @@ class MyDocument extends Document {
 
           <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
           <script src="js/bootstrap.min.js"></script>
 
           <link
@@ -21,7 +20,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body data-bs-spy="scroll" data-bs-target="#navbar-app">
           <Main />
           <NextScript />
         </body>

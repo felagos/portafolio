@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Navbar = () => {
   return (
-    <div className="fixed-side-navbar">
+    <div id="navbar-app" className="fixed-side-navbar">
       <ul className="nav flex-column">
         <li className="nav-item">
           <a className="nav-link" href="#about">
