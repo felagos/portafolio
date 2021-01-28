@@ -8,5 +8,6 @@ Dockerfile
 .prettierrc.json
 out
 .gitignore
-public
+public/img
+public/css/bootstrap.min.css
 .github
