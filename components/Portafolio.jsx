@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 export const Portafolio = () => {
   return (
@@ -15,11 +14,7 @@ export const Portafolio = () => {
             </h2>
             <div className="grid-portafolio">
               <div className="card">
-                <Image
-                  src="/img/thumbails/thumbs-01.jpg"
-                  width={480}
-                  height={360}
-                />
+                <img src="/img/thumbails/thumbs-01.jpg" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Petgram</h5>
                   <a
@@ -33,11 +28,7 @@ export const Portafolio = () => {
               </div>
 
               <div className="card">
-                <Image
-                  src="/img/thumbails/thumbs-02.jpg"
-                  width={480}
-                  height={360}
-                />
+                <img src="/img/thumbails/thumbs-02.jpg" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Moviedb</h5>
                   <a
