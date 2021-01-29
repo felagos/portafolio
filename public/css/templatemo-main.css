@@ -114,7 +114,7 @@ a:hover {
 .baner-content {
 	padding-top: 30vh;
 	text-align: center;
-	background-image: url(https://felipelagos.dev/_next/static/media/1st-section.fb94c18d115f597ffab853b151a3e653.jpg)
+	background-image: url("../img/1st-section.jpg")
 }
 
 .baner-content h1 {
@@ -144,7 +144,7 @@ a:hover {
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 15vh;
-	background-image: url(https://felipelagos.dev/_next/static/media/2nd-section.a40d4b9eb4557fdc58193b50988939f5.jpg);
+	background-image: url("../img/2nd-section.jpg");
 	background-attachment: fixed;
 	min-height: 100vh;
 	background-size: cover;
@@ -201,7 +201,7 @@ h4 {
 }
 
 .portafolio-content {
-	background-image: url(https://felipelagos.dev/_next/static/media/3rd-section.0503e5c0d3d7a60ab6489144dccbe8eb.jpg);
+	background-image: url("../img/3rd-section.jpg");
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 8vh;
@@ -215,7 +215,7 @@ h4 {
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 8vh;
-	background-image: url(https://felipelagos.dev/_next/static/media/4th-section.2de19b8ed43169232735f475d0a720fc.jpg);
+	background-image: url("../img/4th-section.jpg");
 	background-attachment: fixed;
 	min-height: 100vh;
 	background-size: cover;
