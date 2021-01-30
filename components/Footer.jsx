@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { Networking } from './Networking';
 
 export const Footer = () => {
   return (
@@ -11,21 +10,7 @@ export const Footer = () => {
             <a href="#home" className="btn btn-orange mb-5">
               Vovler arriba
             </a>
-            <ul>
-              <li>
-                <a href="https://github.com/felagos/" target="_blank">
-                  <FontAwesomeIcon icon={faGithub} />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/felipe-lagos-s%C3%A1nchez-811a87130/"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon icon={faLinkedinIn} />
-                </a>
-              </li>
-            </ul>
+            <Networking />
           </div>
         </div>
       </div>

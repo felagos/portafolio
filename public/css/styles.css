@@ -190,7 +190,7 @@ h4 {
 	padding: 25px 30px;
 	text-align: center;
 	color: var(--white);
-	margin-bottom: 30px
+	margin-bottom: 30px;
 }
 
 .service-content .service-item .line-dec {
@@ -274,18 +274,18 @@ footer {
 	padding: 70px 0
 }
 
-footer ul {
+.section-networking ul {
 	padding: 0;
 	margin: 0;
 	list-style: none
 }
 
-footer ul li {
+.section-networking ul li {
 	display: inline-block;
 	margin: 0 4px
 }
 
-footer ul li a {
+.section-networking ul li a {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -300,7 +300,7 @@ footer ul li a {
 	font-size: 17px
 }
 
-footer ul li a:hover {
+.section-networking ul li a:hover {
 	color: #282b2f;
 	background-color: #ff8e43
 }
@@ -413,7 +413,27 @@ footer em {
 	margin-right: 150px!important
 }
 
-@media (max-width:1000px) {
+
+.info-contact {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-contact .item {
+	background-color: rgba(0, 0, 0, .5);
+	padding: 25px 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.info-contact .item p {
+	color: var(--white);
+	font-weight: 600;
+	font-size: 38px;
+}
+
+@media (max-width: 1000px) {
 	.grid-portafolio {
 		display: grid;
 		grid-template-columns: 1fr
@@ -424,9 +444,27 @@ footer em {
 	}
 }
 
-@media (max-width:440px) {
+@media (max-width: 440px) {
 	.section-wrapper {
 		margin-left: 5px!important;
 		margin-right: 5px!important
 	}
+}
+
+@media (max-width: 826px) {
+	.info-contact {
+		margin-top: 30px;
+	}
+
+	.info-contact .item p {
+		font-size: 20px;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.info-contact .item p {
+		font-size: 18px;
+	}
+
 }

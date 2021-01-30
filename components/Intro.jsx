@@ -1,4 +1,5 @@
 import React from 'react';
+import { Networking } from './Networking';
 
 export const Intro = () => {
   return (
@@ -6,9 +7,15 @@ export const Intro = () => {
       <div className="container">
         <div className="first-content">
           <h1>Felipe Lagos</h1>
-          <span>
-            <em>Desarrollador Fullstack</em>
-          </span>
+          <div className="info-contact">
+            <span className="item">
+              <p>Desarrollador Fullstack</p>
+            </span>
+            <span className="item">
+              <p>Correo: felagossanchez@gmail.com</p>
+            </span>
+          </div>
+          <Networking />
           <div className="mt-3">
             <a href="#about" className="btn btn-orange btn-lg">
               Ver más

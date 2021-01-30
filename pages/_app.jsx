@@ -1,4 +1,4 @@
-import '../public/css/templatemo-main.css';
+import '../public/css/styles.css';
 
 const MyApp = ({ Component, pageProps }) => {
   return <Component {...pageProps} />;
