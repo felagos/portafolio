@@ -34,6 +34,11 @@ export const About = () => {
               </div>
               <div className="col-md-6">
                 <div className="service-item">
+                  <h4>Spring Boot 2</h4>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="service-item">
                   <h4>Javascript</h4>
                 </div>
               </div>
@@ -74,12 +79,17 @@ export const About = () => {
               </div>
               <div className="col-md-6">
                 <div className="service-item">
-                  <h4>IONIC Framework</h4>
+                  <h4>Ionic Framework 4+</h4>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="service-item">
                   <h4>Express js</h4>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="service-item">
+                  <h4>Nest js</h4>
                 </div>
               </div>
             </div>
