@@ -418,6 +418,7 @@ footer em {
 	margin-top: 10px;
 	display: flex;
 	flex-direction: column;
+	margin-top: 20px;
 }
 
 .info-contact .item {
@@ -467,4 +468,8 @@ footer em {
 		font-size: 18px;
 	}
 
+}
+
+.intro-header {
+	font-size: 35px !important;
 }

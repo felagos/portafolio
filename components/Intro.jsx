@@ -9,7 +9,7 @@ export const Intro = () => {
           <h1>Felipe Lagos</h1>
           <div className="info-contact">
             <span className="item">
-              <p>Desarrollador Fullstack</p>
+              <h1 className="intro-header">Desarrollador Fullstack</h1>
             </span>
             <span className="item">
               <p>Correo: felagossanchez@gmail.com</p>
