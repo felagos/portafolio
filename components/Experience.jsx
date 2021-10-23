@@ -11,7 +11,7 @@ export const Experience = () => {
           <div className="w-experience">
             <span>Banco Internacional (jul 2021 - a la fecha)</span>
             <p className="p-experience">
-              Desarrollo de proyectos internos usando metodología ágiles, React,
+              Desarrollo de proyectos internos usando metodologías ágiles, React,
               SPring boot, Arquitecturas limpias.
             </p>
           </div>
