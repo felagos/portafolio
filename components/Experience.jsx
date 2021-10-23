@@ -9,7 +9,14 @@ export const Experience = () => {
             Experiencia Laboral <hr />
           </h2>
           <div className="w-experience">
-            <span>SII Group Chile (feb 2020 - a la fecha)</span>
+            <span>Banco Internacional (jul 2021 - a la fecha)</span>
+            <p className="p-experience">
+              Desarrollo de proyectos internos usando metodología ágiles, React,
+              SPring boot, Arquitecturas limpias.
+            </p>
+          </div>
+          <div className="w-experience">
+            <span>SII Group Chile (feb 2020 - jul 2021)</span>
             <p className="p-experience">
               Desarrollo de un proyecto para el cliente BancoEstado usando
               tecnología de Angular 8, Nodejs, Jest y Jasmine. Dentro de mis

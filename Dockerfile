@@ -2,13 +2,13 @@ FROM node:14 as builder
 
 WORKDIR /usr/src/app
 
-COPY ["package.json", "package-lock.json", "./"]
+COPY ["package.json", "yarn.lock", "./"]
 
-RUN npm i
+RUN yarn
 
 COPY [".", "."]
 
-RUN npm run export
+RUN yarn export
 
 FROM nginx:latest
 
