@@ -29,7 +29,7 @@ export const About = () => {
 
               <div className="col-md-6">
                 <div className="service-item">
-                  <h4>JAVA</h4>
+                  <h4>JAVA 8+</h4>
                 </div>
               </div>
               <div className="col-md-6">
@@ -64,12 +64,12 @@ export const About = () => {
               </div>
               <div className="col-md-6">
                 <div className="service-item">
-                  <h4>MySQL</h4>
+                  <h4>SQL</h4>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="service-item">
-                  <h4>Jest / Jasmine</h4>
+                  <h4>Jest</h4>
                 </div>
               </div>
               <div className="col-md-6">
