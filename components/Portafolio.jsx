@@ -21,6 +21,19 @@ export const Portafolio = () => {
               </a>
             </div>
           </div>
+          <div className="card">
+            <img src="/img/thumbails/thumbs-01.png" />
+            <div className="card-body">
+              <h5 className="card-title text-center">Password Generator</h5>
+              <a
+                href="https://password-generator.felipelagos.dev"
+                target="_blank"
+                className="btn btn-orange btn-large"
+              >
+                Visitar
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

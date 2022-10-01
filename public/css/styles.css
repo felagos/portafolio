@@ -473,3 +473,14 @@ footer em {
 .intro-header {
 	font-size: 35px !important;
 }
+
+.card image {
+	width: auto;
+	height: 500px;
+}
+
+.card-body {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
