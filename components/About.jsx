@@ -59,11 +59,6 @@ export const About = () => {
               </div>
               <div className="col-md-6">
                 <div className="service-item">
-                  <h4>MongoDB</h4>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="service-item">
                   <h4>SQL</h4>
                 </div>
               </div>
@@ -79,7 +74,7 @@ export const About = () => {
               </div>
               <div className="col-md-6">
                 <div className="service-item">
-                  <h4>Ionic Framework 4+</h4>
+                  <h4>Typescript</h4>
                 </div>
               </div>
               <div className="col-md-6">
